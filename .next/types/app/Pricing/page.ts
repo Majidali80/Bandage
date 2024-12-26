@@ -1,8 +1,8 @@
-// File: D:\project\New folder\Hackthon Templates5\src\app\Product-1\page.tsx
-import * as entry from '../../../../src/app/Product-1/page.js'
+// File: D:\project\New folder\Hackthon Templates5\src\app\Pricing\page.tsx
+import * as entry from '../../../../src/app/Pricing/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/Product-1/page.js')
+type TEntry = typeof import('../../../../src/app/Pricing/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
