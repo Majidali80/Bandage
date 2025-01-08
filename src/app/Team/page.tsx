@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Navbar2 from "../components/Navbar2";
 import Footer from "../components/footer";
+import t2 from "../Team/t2.png"
+
 
 interface TeamCardProps {
   image: string;       // Image path is a string
